@@ -52,10 +52,26 @@ Mitchell = BankAccount('Mitchell Hudson', "03141592", 0)
 Ashley = BankAccount('Ashley Yung','', 1487)
 Ben = BankAccount('Benjamin Kim', '', 5908)
 
-Mitchell.deposit(400000)
-Mitchell.get_balance()
-Mitchell.add_interest()
-Mitchell.withdraw(150)
-Mitchell.print_statement()
+### Testing ####
+# Example w/ Mitchell
+print(Mitchell.print_statement())
+print(Mitchell.deposit(400000))
+print(Mitchell.add_interest())
+print(Mitchell.withdraw(150))
+print(Mitchell.get_balance())
+print ("")
 
-Ben.withdraw(6000)
+#Testing 1
+print(Ben.print_statement())
+print(Ben.withdraw(6000))
+print(Ben.deposit(10000))
+print(Ben.add_interest())
+print(Ben.get_balance())
+print ("")
+
+#Testing 2
+print(Ashley.print_statement())
+print(Ashley.deposit(7000))
+print(Ashley.add_interest())
+print(Ashley.withdraw(2050))
+print(Ashley.get_balance())

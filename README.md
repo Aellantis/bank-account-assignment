@@ -21,15 +21,17 @@ The assignment requirements are as follows:
     - `withdraw` that will take one parameter amount and will subtract amount from the balance. Also, it will print a message, like “Amount withdrawn: $X.XX new balance: $Y.YY”. If the user tries to withdraw an amount that is greater than the current balance, print ”Insufficient funds.” and charge them with an overdraft fee of $10
     - `get_balance` that will print a user-friendly message with the account balance and then also return the current balance of the account.
     - `add_interest` adds interest to the users balance. The annual interest rate is 1% (i.e. 0.083% per month). Thus, the monthly interest is calculated by the following equation: interest = balance *  0.00083 .
-    - `print_statement` method prints a message with the account name, account number, and balance like this: 
-            Joi Anderson
-            Account No.: ****5678
-            Balance: $100.00
-- [x] 3 different bank account examples using the BankAccount() object to test and show that the code is working. For example: 
+    - `print_statement` method prints a message with the account name, account number, and balance like this:
+        - Joi Anderson
+        - Account No.: ****5678
+        - Balance: $100.00
+- [x] 3 different bank account examples using the BankAccount() object to test and show that the code is working.
+For example:
+
     Create a new bank account instance: user: "Mitchell", account number: 03141592.
-    Deposit $400,000 into "Mitchell's" account.
-    Print a statement
-    Add interest to the account
-    Print a statement
-    Make a withdrawl of $150 (Mitchell needs some Yeezy's)
-    Print a statement
+    - Deposit $400,000 into "Mitchell's" account.
+    - Print a statement
+    - Add interest to the account
+    - Print a statement
+    - Make a withdrawal of $150 (Mitchell needs some Yeezy's)
+    - Print a statement

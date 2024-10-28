@@ -10,3 +10,8 @@ class BankAccount:
     def random_account_number():
         return random.randint(10000000, 99999999)
     
+    #Hides the first 4 numbers to print only the last 4 digits
+    def last_four_digits(self):
+        account_str = str(self.account)
+        return '*' * (len(account_str) - 4) + account_str[-4:]
+    

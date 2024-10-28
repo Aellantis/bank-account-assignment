@@ -1,20 +1,20 @@
 # Bank-Account-Assignment 
-### by Ashley Yung
+#### Ashley Yung
 
 ## Description
 The purpose of this assignment is to practice object-oriented programming concepts through the creation of a bank account program in Python. 
-
+______________________________________________________________
 The submission requirements are as follows: 
 - [x] Public Repo 
 - [x] At least 5 commits
 - [x] Contain a README
 - [x] Submission
-
+______________________________________________________________
 The assignment requirements are as follows:
 - [x] One file, `bank_account.py` with defined `BankAccount` class
 - [x] Class has the following attributes: 
     - `full_name` - the full name of the bank account account owner.
-    - `account_number` - randomly generated 8 digit number, unique per account.
+    - `account_number` - randomly generated 8 digit number, unique per account. (But everytime you run, the numbers will change because I haven't stored them anywhere to be held by a specific user.)
     - `balance` - the balance of money in the account, should start at 0.
 - [x] Class has the following methods:
     - `deposit` which will take one parameter amount and will add amount to the balance. Also, it will print the message: “Amount deposited: $X.XX new balance: $Y.YY”
@@ -37,4 +37,4 @@ For example:
     - Print a statement
 
 ## Language Used
-- Once again, this is in `Python`
+Python

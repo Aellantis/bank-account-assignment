@@ -6,3 +6,7 @@ class BankAccount:
         self.account = account_number if account_number else self.random_account_number()
         self.balance = balance
 
+    #Generates an 8 digit random account number
+    def random_account_number():
+        return random.randint(10000000, 99999999)
+    

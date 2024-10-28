@@ -18,10 +18,7 @@ The assignment requirements are as follows:
     - `balance` - the balance of money in the account, should start at 0.
 - [x] Class has the following methods:
     - `deposit` which will take one parameter amount and will add amount to the balance. Also, it will print the message: “Amount deposited: $X.XX new balance: $Y.YY”
-    -`withdraw` that will take one parameter amount and will subtract amount from the balance. Also, it will print a message, like “Amount withdrawn: $X.XX new balance: $Y.YY”. If the user tries to withdraw an amount that is greater than the current balance, print ”Insufficient funds.” and charge them with an overdraft fee of $10
-    The get_balance method will print a user-friendly message with the account balance and then also return the current balance of the account.
-    The add_interest method adds interest to the users balance. The annual interest rate is 1% (i.e. 0.083% per month). Thus, the monthly interest is calculated by the following equation: interest = balance *  0.00083 .
-    The print_statement method prints a message with the account name, account number, and balance
+    - `withdraw` that will take one parameter amount and will subtract amount from the balance. Also, it will print a message, like “Amount withdrawn: $X.XX new balance: $Y.YY”. If the user tries to withdraw an amount that is greater than the current balance, print ”Insufficient funds.” and charge them with an overdraft fee of $10
     - `get_balance` that will print a user-friendly message with the account balance and then also return the current balance of the account.
     - `add_interest` adds interest to the users balance. The annual interest rate is 1% (i.e. 0.083% per month). Thus, the monthly interest is calculated by the following equation: interest = balance *  0.00083 .
     - `print_statement` method prints a message with the account name, account number, and balance like this: 

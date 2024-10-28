@@ -15,3 +15,17 @@ class BankAccount:
         account_str = str(self.account)
         return '*' * (len(account_str) - 4) + account_str[-4:]
     
+    #Deposit Function
+    def deposit(self,amount):
+        self.balance += amount
+        return f'Amount Deposited: ${amount:,.2f}\nNew Balance: ${self.balance:,.2f}'
+
+    #Withdraw Function w/ logic for insufficient funds
+    def withdraw(self, amount):
+        self.balance -= amount
+        if amount > self.balance:
+            return f'INSUFFICIENT FUNDS. You will be charged a $10 overdraft fee.\nWithdrawing ${amount:,.2f}...\nNew Balance: -${abs(self.balance - 10):,.2f}'
+        return f'Amount Withdrawn: ${amount:,.2f}\nNew Balance: ${self.balance:,.2f}'
+    
+    def get_balance(self):
+        return f'Current Balance: ${self.balance:,.2f}'
